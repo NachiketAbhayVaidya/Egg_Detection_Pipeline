@@ -2,7 +2,7 @@ import cv2
 from pathlib import Path
 import video_track
 
-SHOW_LINE = True
+SHOW_LINE = False
 COLORS = {1: (0, 140, 255), 2: (255, 160, 0)}
 
 frames, fps, (w, h) = video_track.track_video(video_track.VIDEO)
