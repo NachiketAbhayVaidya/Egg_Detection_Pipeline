@@ -1,0 +1,25 @@
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+myenv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Large Model Weights & Checkpoints
+# ==========================================
+*.pt
+*.pth
+*.bin
+*.onnx
+*.engine
+checkpoints/
+src/checkpoints/
+third_party/sam2/checkpoints/
+
+

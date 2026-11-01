@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import cv2
+cap = cv2.VideoCapture("D:/nosh_assignment/input.mp4")
+print(int(cap.get(3)), int(cap.get(4)))
